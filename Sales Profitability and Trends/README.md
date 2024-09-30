@@ -20,7 +20,7 @@
     Quantity: Number of units sold.
     Discount: Discount applied to the sale.
     Profit: Profit or loss from the sale.
-##Objective:-
+## Objective:-
  - Enhance Sales Profitability: Identify factors that influence profitability to inform strategic decisions.
  - Detailed Analysis: Conduct in-depth analysis across various dimensions such as subcategories, segments, geographical locations, and more.
 ## Research  Question:-
@@ -34,11 +34,43 @@
     8.Profitability by City: Which cities are the most profitable?
     9.Profitability by State: How does profitability vary across different states?
     10.Top 10 Most Profitable Products: What are the top 10 most profitable products?
--🛠️ **SQL**
+
+## Tools:-
+🛠️ **SQL**
   - Used for data extraction, transformation, and loading (ETL) from relational databases.
-- 📊 **Power BI**
+
+📊 **Power BI**
   - Utilized for creating interactive dashboards and visualizing key performance indicators (KPIs).
-  
+
+## Insight:-
+  - This data highlights the profitability of various product sub-categories. Copiers lead with the highest profit of $55,617.82, followed by Phones and Accessories. Sub-categories like Paper and Binders also contribute significant profits. On the other hand, Tables and Bookcases show notable losses, with Tables incurring a loss of $17,725.5.
+
+- Based on the analysis of the Tables subcategory, we observe a moderately strong negative correlation of -0.67 between discount and profitability. This means that as discounts increase, profitability tends to decline significantly.
+
+- In the bookcase subcategory, the Consumer segment has incurred a significant loss of $4,435.64 over 131 transactions, while the Home Office and Corporate segments have shown profits of $324.63 and $638.45 from 33 and 64 transactions, respectively.
+
+- There is a correlation of -0.63 between discount levels and total profit, indicating that as discounts increase, total profit tends to decrease, negatively impacting overall profitability.
+
+- Discounts below 30% (0.3) can lead to positive profitability, as seen with a profit of $1,418.99 at a 0.15 discount, while discounts of 0.4 and above result in increasing losses.
+
+- Both discount levels and profitability are influenced by the number of orders; for example, at a 0.7 discount, there are 391 orders resulting in a loss of -$39,643.72, while at a 0.8 discount, with only 285 orders, the loss increases to -$30,136.24. This illustrates how higher discounts, combined with fewer orders, lead to significant losses.
+
+- We have successfully delivered order across 49 State. Of these, 39 state have been profitable, while 10 state have experienced losses.
+
+- The tables highlights the Top 5 Loss-Making and Top 5 Profitable States, showing total losses or profits for each state. It also includes the number of cities in each state that are either loss-making or profitable. This provides a quick snapshot of state and city-level performance.
+
+## Recommendation:-
+
+- Discount Strategy for Tables:-
+  + Cease offering discounts on tables in general. If discounts must be given, restrict them to small discounts in the states of Washington, New York, and Virginia.
+- Bookcase Subcategory Discount Adjustments:
+  + Discontinue discounts for the Consumer segment in the states of Pennsylvania, Texas, Colorado, Ohio, and Arizona.
+- Customer Base Expansion:-
+  + Focus efforts on increasing the customer base in Wyoming, Kansas, South Dakota, and North Dakota.
+- Texas:-
+  + Reassess the pricing strategy for binders and appliances, and consider discontinuing aggressive promotions or discounts to improve profitability.
+
+
 
 
 
